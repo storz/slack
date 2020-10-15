@@ -118,8 +118,8 @@ type ScheduledMessage struct {
 
 // Icon is used for bot messages
 type Icon struct {
-	IconURL   string `json:"icon_url,omitempty"`
-	IconEmoji string `json:"icon_emoji,omitempty"`
+	IconURL   string `json:"url,omitempty"`
+	IconEmoji string `json:"emoji,omitempty"`
 }
 
 // BotProfile contains information about a bot
